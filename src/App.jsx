@@ -1,4 +1,4 @@
-import './components/ProjectsSidebar.jsx';
+import ProjectsSidebar from './components/ProjectsSidebar.jsx';
 function App() {
   return (
     <main>
