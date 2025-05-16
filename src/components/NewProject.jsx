@@ -2,10 +2,10 @@ import Input from './Input.jsx';
 export default function NewProject()
 {
     return (
-        <div>
-            <menu>
-                <li><button>Cancel</button></li>
-                <li><button>Savel</button></li>
+        <div className="w-[35rem] mt-16">
+            <menu className="flex items-center justify-end gap-4 my-4">
+                <li><button className="text-stone-800 hover:text-stone-950">Cancel</button></li>
+                <li><button className="my-6 mx-2 py-1 px-5 rounded-md bg-stone-800 text-stone-50 hover:bh-stone-950">Savel</button></li>
             </menu>
             <div>
                 <Input label="Title"/>
